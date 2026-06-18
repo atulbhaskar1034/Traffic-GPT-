@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridlock"
+version = "0.1.0"
+description = "AI-powered Illegal Parking Detection System for Bangalore"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "GRIDLOCK Team"}
+]
+
+dependencies = [
+    # Core ML
+    "torch>=2.1.0",
+    "torchvision>=0.16.0",
+    "ultralytics>=8.1.0",
+
+    # Computer Vision
+    "opencv-python>=4.8.0",
+    "Pillow>=10.0.0",
+
+    # OCR
+    "easyocr>=1.7.0",
+
+    # Segmentation
+    "segmentation-models-pytorch>=0.3.3",
+
+    # Embeddings & Vector DB
+    "open-clip-torch>=2.23.0",
+    "faiss-cpu>=1.7.4",
+
+    # API
+    "fastapi>=0.108.0",
+    "uvicorn[standard]>=0.25.0",
+    "python-multipart>=0.0.6",
+
+    # Geospatial
+    "shapely>=2.0.0",
+
+    # Utilities
+    "pydantic>=2.5.0",
+    "loguru>=0.7.0",
+    "pyyaml>=6.0.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"

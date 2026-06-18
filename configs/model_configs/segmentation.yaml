@@ -1,0 +1,21 @@
+# ============================================================
+# Scene Segmentation Model Configuration
+# Model: DeepLabV3+ with ResNet-101 backbone
+# ============================================================
+
+model:
+  architecture: "deeplabv3plus"
+  backbone: "resnet101"
+  pretrained_backbone: true
+  num_classes: 6
+  classes:
+    0: "background"
+    1: "road"
+    2: "footpath"
+    3: "zebra_crossing"
+    4: "bus_stop_zone"
+    5: "lane_marking"
+
+inference:
+  image_size: [512, 512]
+  presence_threshold: 0.01

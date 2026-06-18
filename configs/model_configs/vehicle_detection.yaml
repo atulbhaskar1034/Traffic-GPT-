@@ -1,0 +1,21 @@
+# ============================================================
+# Vehicle Detection Model Configuration
+# Model: YOLOv8-L fine-tuned for Indian road vehicles
+# ============================================================
+
+model:
+  architecture: "yolov8l"
+  pretrained_weights: "yolov8l.pt"
+  num_classes: 5
+  classes:
+    0: "car"
+    1: "bike"
+    2: "truck"
+    3: "bus"
+    4: "auto_rickshaw"
+
+inference:
+  confidence_threshold: 0.45
+  iou_threshold: 0.5
+  max_detections: 50
+  image_size: 640

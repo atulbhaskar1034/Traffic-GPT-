@@ -1,0 +1,19 @@
+# ============================================================
+# No-Parking Sign Detection Configuration
+# Model: YOLOv8-M fine-tuned for Indian traffic signs
+# ============================================================
+
+model:
+  architecture: "yolov8m"
+  pretrained_weights: "yolov8m.pt"
+  num_classes: 3
+  classes:
+    0: "no_parking_sign"
+    1: "restricted_zone_board"
+    2: "tow_away_sign"
+
+inference:
+  confidence_threshold: 0.50
+  iou_threshold: 0.5
+  max_detections: 10
+  image_size: 640

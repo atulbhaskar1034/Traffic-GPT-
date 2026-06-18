@@ -1,0 +1,65 @@
+# ============================================================
+# Training Hyperparameters
+# Shared defaults + per-model overrides
+# ============================================================
+
+defaults:
+  optimizer: "AdamW"
+  learning_rate: 0.001
+  weight_decay: 0.0005
+  lr_scheduler: "cosine"
+  warmup_epochs: 3
+  batch_size: 16
+  epochs: 100
+  early_stopping_patience: 15
+  seed: 42
+  mixed_precision: true
+  num_workers: 4
+
+vehicle_detection:
+  model: "yolov8l"
+  image_size: 640
+  batch_size: 16
+  epochs: 100
+  learning_rate: 0.001
+  # YOLO-specific augmentation
+  mosaic: 1.0
+  mixup: 0.15
+  copy_paste: 0.1
+  degrees: 10.0
+  translate: 0.1
+  scale: 0.5
+  fliplr: 0.5
+
+segmentation:
+  model: "deeplabv3plus"
+  backbone: "resnet101"
+  image_size: [512, 512]
+  batch_size: 8
+  epochs: 80
+  learning_rate: 0.007
+  lr_scheduler: "poly"
+  poly_power: 0.9
+  aux_loss_weight: 0.4
+
+sign_detection:
+  model: "yolov8m"
+  image_size: 640
+  batch_size: 32
+  epochs: 80
+  learning_rate: 0.001
+
+plate_detection:
+  model: "yolov8s"
+  image_size: 640
+  batch_size: 32
+  epochs: 60
+  learning_rate: 0.001
+
+fraud_classifier:
+  model: "efficientnet_b0"
+  image_size: [224, 224]
+  batch_size: 64
+  epochs: 30
+  learning_rate: 0.0001
+  dropout: 0.3
