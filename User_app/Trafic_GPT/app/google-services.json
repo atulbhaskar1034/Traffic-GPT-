@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "383562546234",
+    "project_id": "trafic-gpt",
+    "storage_bucket": "trafic-gpt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383562546234:android:1fb438aa0e471b50f8c903",
+        "android_client_info": {
+          "package_name": "com.civic.enforcement"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCirx-rqBUyaz0nv57shmgZp43a7ANCrb4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

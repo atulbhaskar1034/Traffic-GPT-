@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Trafic GPT</string>
+
+    <!-- Profile Screen -->
+    <string name="profile_header_title">Police Officer Profile</string>
+    <string name="profile_section_details">Profile Details</string>
+    <string name="profile_hint_name">Full Name</string>
+    <string name="profile_hint_age">Age</string>
+    <string name="profile_hint_gender">Gender</string>
+    <string name="profile_hint_badge">Badge Number</string>
+    <string name="profile_hint_department">Department</string>
+    <string name="profile_hint_phone">Contact Number</string>
+    <string name="profile_btn_save">Save Profile</string>
+    <string name="profile_btn_logout">Logout</string>
+    <string name="profile_error_load">Unable to load profile. Please try again.</string>
+    <string name="profile_update_success">Profile updated successfully.</string>
+    <string name="profile_update_failure">Failed to save profile. Check your network and try again.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_hotspots">Hotspots</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Dashboard Screen -->
+    <string name="dashboard_header_title">🏠 Trafic GPT Home</string>
+    <string name="dashboard_header_subtitle">AI Traffic Intelligence</string>
+    <string name="dashboard_header_status">🟢 System Online</string>
+    <string name="dashboard_stat_total_hotspots">Total Hotspots</string>
+    <string name="dashboard_stat_critical_hotspots">Critical Hotspots</string>
+    <string name="dashboard_stat_total_violations">Total Violations</string>
+    <string name="dashboard_btn_history">🚔 Deployment History</string>
+    <string name="dashboard_btn_logout">🚪 Logout</string>
+
+    <!-- Hotspots Screen -->
+    <string name="hotspots_header_title">🚔 Trafic GPT Priorities</string>
+    <string name="hotspots_header_subtitle">AI Powered Enforcement Intelligence</string>
+    <string name="hotspots_header_status">🟢 Real-time Analysis</string>
+
+    <!-- Community Screen -->
+    <string name="community_header_title">📄 Trafic GPT Reports</string>
+    <string name="community_header_subtitle">AI-Processed Citizen Reports</string>
+    <string name="community_header_status">🛡️ Verified Intelligence</string>
+    <string name="hotspot_search_hint">Search by area or station</string>
+    <string name="community_search_hint">Search by location or incident</string>
+
+    <!-- Login Screen -->
+    <string name="login_subtitle">AI-Powered Traffic Intelligence</string>
+    <string name="login_btn_google">Sign In With Google</string>
+
+    <!-- Splash Screen -->
+    <string name="splash_subtitle">AI-Powered Traffic Enforcement</string>
+</resources>

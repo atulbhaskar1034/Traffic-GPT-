@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Branding: Deep Bluish Purple -->
+    <color name="primary">#5D4B8D</color>
+    <color name="primaryVariant">#433972</color>
+    <color name="secondary">#7E57C2</color>
+
+    <!-- Softer Theme Surface Colors -->
+    <color name="background">#F2F1F8</color>
+    <color name="surface">#F7F5FC</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="onSurface">#1F1B38</color>
+    <color name="cardBackground">#F7F5FC</color>
+
+    <!-- Text Colors for Light Background -->
+    <color name="textPrimary">#1F1B38</color>
+    <color name="textSecondary">#655F8D</color>
+
+    <!-- Alert Colors -->
+    <color name="alertHigh">#9575CD</color>
+    <color name="alertMedium">#B39DDB</color>
+
+    <!-- Status Colors -->
+    <color name="statusOnline">#4CAF50</color>
+    <color name="statusOffline">#F44336</color>
+</resources>

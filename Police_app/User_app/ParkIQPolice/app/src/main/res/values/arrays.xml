@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="community_sort_options">
+        <item>Newest</item>
+        <item>Highest Score</item>
+        <item>Location</item>
+        <item>Status</item>
+    </string-array>
+
+    <string-array name="hotspot_sort_options">
+        <item>Relevance</item>
+        <item>Nearest Area</item>
+        <item>Time Relevance</item>
+        <item>Priority Score</item>
+        <item>High Risk</item>
+    </string-array>
+</resources>

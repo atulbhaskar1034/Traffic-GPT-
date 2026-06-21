@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@color/cardBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/txtJunction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="KR Market Junction"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <TextView
+            android:id="@+id/txtStation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="👮 Upparpet"
+            android:textColor="@color/textSecondary"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🟢 ACTIVE NOW"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"
+            android:padding="8dp"
+            android:background="@drawable/status_chip_background"
+            android:textColor="@color/textPrimary"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <TextView
+                android:id="@+id/txtPriority"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="VERY HIGH"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_chip_secondary_background"
+                android:padding="8dp"
+                android:gravity="center"/>
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:id="@+id/txtScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="95.8"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_chip_primary_background"
+                android:padding="8dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="14dp">
+
+            <TextView
+                android:id="@+id/txtViolations"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="🚨 58796"
+                android:textColor="@color/textSecondary"/>
+
+            <TextView
+                android:id="@+id/txtPeakHour"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🕒 18"
+                android:textColor="@color/textSecondary"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

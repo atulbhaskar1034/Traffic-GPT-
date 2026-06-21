@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/txtRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏆 Rank #1"
+            android:textColor="#FF9800"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txtJunction"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KR Market Junction"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtPriority"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🔴 VERY_HIGH"
+            android:textColor="#D32F2F"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Priority Score: 95.8"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/txtViolations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Violations: 58796"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/txtPeakHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peak Hour: 18"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/txtStation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Police Station: Upparpet"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "54777348115",
+    "project_id": "parkiqpolice",
+    "storage_bucket": "parkiqpolice.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:54777348115:android:895b11719b15751197bfe6",
+        "android_client_info": {
+          "package_name": "com.example.parkiqpolice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "54777348115-csa98l06a4fnga4ll1kjtt8ikrdittvn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.parkiqpolice",
+            "certificate_hash": "0c7ce3627a284a7b37a13a780400328ea5ebae5d"
+          }
+        },
+        {
+          "client_id": "54777348115-3hvukpm48fpiq7oef49b9pj17s92vl5b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvQMaRPQowNcyCo-FfCtvgv1sZXT51SL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "54777348115-3hvukpm48fpiq7oef49b9pj17s92vl5b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
