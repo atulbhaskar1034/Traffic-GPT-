@@ -22,6 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Trafic_GPT"
+rootProject.name = "Traffic_GPT"
 include(":app")
  
